@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Rainy (gms)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--flavor",
+        "gms"
+      ]
+    },
+    {
+      "name": "Rainy (floss)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--flavor",
+        "floss"
+      ]
+    },
+    {
+      "name": "Rainy (Default)",
+      "request": "launch",
+      "type": "dart"
+    }
+  ]
+}
