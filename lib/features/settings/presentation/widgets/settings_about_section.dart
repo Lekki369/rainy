@@ -37,7 +37,7 @@ class SettingsAboutSection extends ConsumerWidget {
             SettingsTile(
               leading: const Icon(LineAwesomeIcons.github),
               title: '${'project'.tr} GitHub',
-              onTap: () => openUrl('https://github.com/lekki369/Rainy'),
+              onTap: () => openUrl(AppConstants.repositoryUrl),
             ),
             SettingsTile(
               leading: const Icon(IconsaxPlusLinear.sms),

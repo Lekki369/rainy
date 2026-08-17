@@ -163,8 +163,11 @@ class AppConstants {
   /// Nominatim reverse geocoding (OpenStreetMap); requires a descriptive User-Agent.
   static const String nominatimReverseUrl =
       'https://nominatim.openstreetmap.org/reverse';
+  /// Project source; also the contact target in [nominatimUserAgent].
+  static const String repositoryUrl = 'https://github.com/Lekki369/rainy';
+
   static const String nominatimUserAgent =
-      'Rainy Weather App (com.example.rainy; https://github.com/darkmoonight/Rainy)';
+      'Rainy Weather App ($mapUserAgentPackageName; $repositoryUrl)';
 
   // --- Map dark-mode color matrix ---
 
